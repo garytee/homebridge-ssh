@@ -7,7 +7,7 @@ var ssh = require('@garytee/ssh-exec'),
 module.exports = function(homebridge) {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
-  homebridge.registerAccessory('homebridge-ssh', 'SSH', SshAccessory);
+  homebridge.registerAccessory('@garytee/homebridge-ssh', 'SSH', SshAccessory);
 }
 
 function SshAccessory(log, config) {

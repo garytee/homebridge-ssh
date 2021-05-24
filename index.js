@@ -1,7 +1,7 @@
 var Service;
 var Characteristic;
 
-var ssh = require('ssh-exec'),
+var ssh = require('@garytee/ssh-exec'),
     assign = require('object-assign');
 
 module.exports = function(homebridge) {
